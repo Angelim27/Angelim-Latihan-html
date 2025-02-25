@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="images/bimbel.jpg" width="4%"> <br>
+
+    <h2> Bimbel Alwi </h2> <hr> 
+    <a href="index.html"> Home </a> | <a href="profil.html"> Profil </a> | <a href="Hubungi.htm"> Hubungi Kami </a><hr>
+    <h4> Penerimaan Siswa-Siswi Baru </h4>
+    Terima kasih telah memilih Bimbel Alwi sebagai tempat belajar dan mengembangkan potensi akademik Anda. Silakan isi formulir ini dengan lengkap dan benar untuk mendaftarkan diri sebagai siswa - siswi baru. Kami berkomitmen untuk memberikan pembelajaran yang interaktif, mudah dipahami, dan menyenangkan agar Anda dapat mencapai hasil terbaik. Jika ada pertanyaan, jangan ragu untuk menghubungi kami.
+    Mari bersama menuju prestasi yang gemilang! 
+
+    <form action="proses.php" method="post"> <br> 
+        Nama Lengkap <br>
+        <input type="text" name="namaLengkap" id="namaLengkap" required> <br> <br>
+        Tanggal Lahir <br>
+        <input type="date" name="TanggalLahir" id="TanggalLahir" required> <br> <br>
+        Jenis Kelamin <br>
+        <input type="radio" name="jk" id="jkl" value="L" checked> Laki-Laki <br>
+        <input type="radio" name="jk" id="jkp" value="P" checked> Perempuan <br> <br> 
+        Kelas <br>
+        <select name="Kelas" id="Kelas">
+        <option value="X"> X </option>
+        <option value="XI"> XI </option>
+        <option value="XII"> XII </option> <select> <br> <br> 
+        Asal Sekolah <br> 
+        <input type="text" name="asalSekolah" id="asalSekolah" required> <br> <br> 
+        Pilih Kelas <br> 
+        <select name="PilihKelas" id="PilihKelas">
+            <option value="Group"> Group </option>
+            <option value="Private"> Private </option> <select> <br> <br>
+        Nomor Telepon <br> 
+        <input type="number" name="nomorTelepon" id="nomorTelepon" required> <br> <br>
+        Kontak  Orang Tua <br>
+        <input type="number" name="kotakOrtu" id="kotakOrtu" required> <br> <br> 
+        <button type="submit"> Kirim </button>
+
+    </form>
+</body>
+</html>
